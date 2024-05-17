@@ -1,3 +1,4 @@
+from .strings import get_languages, get_string, language
 from .vars import Config
 
 
