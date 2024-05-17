@@ -2,7 +2,7 @@ import os
 import sys
 from os import listdir, path
 from typing import Any, Dict, List, Union
-
+from TelethonPbx.clients.logger import LOGGER as LOGS
 try:
     from google_trans_new import google_translator
     Trs = google_translator()
