@@ -10,7 +10,7 @@ class Config(object):
     BOT_HANDLER = "®"
     BOT_LIBRARY = os.environ.get("BOT_LIBRARY", None)
     BOT_TOKEN = "6837458112:AAG5XLx5p5NN9_ljbgsV4tg8yfaI76EiL7Q"
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
+    BOT_USERNAME = "PBXOLD_BOT"
     BUTTONS_IN_HELP = int(os.environ.get("BUTTONS_IN_HELP", 7))
     CURRENCY_API = os.environ.get("CURRENCY_API", None)
     DATABASE_URL = os.environ.get("DATABASE_URL", None)
