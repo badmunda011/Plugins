@@ -14,6 +14,8 @@ class Config(object):
     BUTTONS_IN_HELP = int(os.environ.get("BUTTONS_IN_HELP", 7))
     CURRENCY_API = os.environ.get("CURRENCY_API", None)
     DATABASE_URL = "postgres://wlonitqf:4zknvpQqvICYcYNkknOET0WAEPNUF5h6@flora.db.elephantsql.com/wlonitqf"
+    DATABASE_PASSWORD = "4zknvpQqvICYcYNkknOET0WAEPNUF5h6"
+    API_KEY = "5d3b1722-6b4f-41a1-a2b4-dcd3ab309ace"
     EMOJI_IN_HELP = os.environ.get("EMOJI_IN_HELP", "✯")
     G_DRIVE_CLIENT_ID = os.environ.get("G_DRIVE_CLIENT_ID", None)
     G_DRIVE_CLIENT_SECRET = os.environ.get("G_DRIVE_CLIENT_SECRET", None)
