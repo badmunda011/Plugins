@@ -13,7 +13,7 @@ class Config(object):
     BOT_USERNAME = "PBXOLD_BOT"
     BUTTONS_IN_HELP = int(os.environ.get("BUTTONS_IN_HELP", 7))
     CURRENCY_API = os.environ.get("CURRENCY_API", None)
-    DATABASE_URL = os.environ.get("DATABASE_URL", None)
+    DATABASE_URL = "mongodb+srv://Badmunda_13:badmunda50@cluster0.9oyzqux.mongodb.net/?retryWrites=true&w=majority"
     EMOJI_IN_HELP = os.environ.get("EMOJI_IN_HELP", "✯")
     G_DRIVE_CLIENT_ID = os.environ.get("G_DRIVE_CLIENT_ID", None)
     G_DRIVE_CLIENT_SECRET = os.environ.get("G_DRIVE_CLIENT_SECRET", None)
