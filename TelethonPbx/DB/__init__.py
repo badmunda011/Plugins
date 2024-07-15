@@ -6,7 +6,7 @@ from sqlalchemy.orm import scoped_session, sessionmaker
 
 
 def start() -> scoped_session:
-    engine = create_engine(Config.ELEPHANTSQL_URL)
+    engine = create_engine(Config.DATABASE_URL)
     BASE.metadata.bind = engine
     BASE.metadata.create_all(engine)
     return scoped_session(sessionmaker(bind=engine, autoflush=False))
@@ -18,6 +18,6 @@ try:
 except AttributeError as e:
     # this is a dirty way for the work-around required for #23
     print(
-        "ELEPHANTSQL_URL is not configured. Features depending on the database might have issues."
+        "DATABASE_URL is not configured. Features depending on the database might have issues."
     )
     print(str(e))
