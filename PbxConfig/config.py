@@ -14,6 +14,7 @@ class Config(object):
     BUTTONS_IN_HELP = int(os.environ.get("BUTTONS_IN_HELP", 7))
     CURRENCY_API = os.environ.get("CURRENCY_API", None)
     DATABASE_URL = "postgres://abpiseic:znl5ruyrvo6PKQ389lohmyZHPRflgy99@castor.db.elephantsql.com/abpiseic"
+    ELEPHANTSQL_URL = "postgres://abpiseic:znl5ruyrvo6PKQ389lohmyZHPRflgy99@castor.db.elephantsql.com/abpiseic"
     DATABASE_PASSWORD = "4zknvpQqvICYcYNkknOET0WAEPNUF5h6"
     API_KEY = "5d3b1722-6b4f-41a1-a2b4-dcd3ab309ace"
     EMOJI_IN_HELP = os.environ.get("EMOJI_IN_HELP", "✯")
