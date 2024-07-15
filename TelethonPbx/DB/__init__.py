@@ -5,11 +5,12 @@ from sqlalchemy.orm import scoped_session, sessionmaker
 
 
 def start() -> scoped_session:
-    engine = create_engine("postgres://wlonitqf:4zknvpQqvICYcYNkknOET0WAEPNUF5h6@flora.db.elephantsql.com/wlonitqf")
+    engine = create_engine(DATABASE)
     BASE.metadata.bind = engine
     BASE.metadata.create_all(engine)
     return scoped_session(sessionmaker(bind=engine, autoflush=False))
 
+DATABASE="postgres://wlonitqf:4zknvpQqvICYcYNkknOET0WAEPNUF5h6@flora.db.elephantsql.com/wlonitqf"
 
 try:
     BASE = declarative_base()
