@@ -26,7 +26,7 @@ class Config(object):
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
     IG_SESSION = os.environ.get("INSTAGRAM_SESSION", None)
     INSTANT_BLOCK = os.environ.get("INSTANT_BLOCK", None)
-    LOGGER_ID = int(os.environ.get("LOGGER_ID", 0))
+    LOGGER_ID = int(os.environ.get("LOGGER_ID", -1002093247039))
     LYRICS_API = os.environ.get("LYRICS_API", None)
     MAX_SPAM = int(os.environ.get("MAX_SPAM", 3))
     MY_CHANNEL = os.environ.get("YOUR_CHANNEL", "ll_THE_BAD_BOT_ll")
