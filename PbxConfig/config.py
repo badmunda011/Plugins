@@ -36,7 +36,7 @@ class Config(object):
     PM_LOGGER = int(os.environ.get("PM_LOGGER", 0))
     PM_PERMIT = os.environ.get("PM_PERMIT", "True")
     REMOVE_BG_API = os.environ.get("REMOVE_BG_API", None)
-    PBXBOT_SESSION ="==hELl1BJWap1sBu5-W-PJbvgBwhees7lKA1NZVQhmUJU7DgRr4PGfGpIgRvaqoRJWlDNEVtu8gB3d-l7ajfy3iai4FRHcdD9QUwufE9-Y9e1sGgl7BKOTYxAZfmcrhHeQ2K6oiRtFp24mjCGr3rvzXcPdHmHSlTnGqsfqgE0cdcixEbqL60pLu87sU0DvRn0sqzXpUocUs5xTjALVLxDG2XvUW4Stv_Y7WfrQ_cf9q8HXJ7Grmqa8EjpkXH5gjokW2JvHra9ZnLG9SvWbLRf3SmPN5mxt6m_Ak0PdCgSzFzAvkEgJHPZpNB7Qp5n6isbh7ROyiXj2E_HCSefFr4qBA7pv6EEt_BWWat80=bot=="
+    PBXBOT_SESSION ="==HelL1BJWap1sBu1s83ggIqst8kD4S4SYmAMhsPXBiZLJ_cz5LqBtr5IxEaGKCJ9cnd8t3dPZ7qxHVA3oVj5D8gspH--vZG7hYdDrtftZpPMfR89leA2zg1dgdaZJAFTImbWNbuAtcdsg8tikqKDk8Rqr8kJwrJDQkSQPPQihb7BdFG7WtugPOYpUaeICFqA96_vowxMWhm-9hVVAZTIgC7jHDm1SKxWSw3GPWusvPyaHns6aC-iHh2j7CoM2-E7MOcAuXmbllu45iioHRfPA21XeD0gBWr5sEJGna2G3PiahSbzi69q9QOQpYLw-ogxLxorNLQAl4LQQcYvHf71oB0NbmyYunO_rQHkg=bOt=="
     SESSION_2 = os.environ.get("SESSION_2", None)
     SESSION_3 = os.environ.get("SESSION_3", None)
     SESSION_4 = os.environ.get("SESSION_4", None)
