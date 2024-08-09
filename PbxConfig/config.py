@@ -13,9 +13,7 @@ class Config(object):
     BOT_USERNAME = "PBXOLD_BOT"
     BUTTONS_IN_HELP = int(os.environ.get("BUTTONS_IN_HELP", 7))
     CURRENCY_API = os.environ.get("CURRENCY_API", None)
-    DATABASE_URL = "postgres://u12lmplpt8rdjj:p2ba6d5bfd5134322ca3c0b6d3caf14effaa9992ee5e57ef3b9c15709e757ca6e@c4jpa9p9eiug0j.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/dc4ohsvp374pv6"
-    ELEPHANTSQL_URL = "postgres://abpiseic:znl5ruyrvo6PKQ389lohmyZHPRflgy99@castor.db.elephantsql.com/abpiseic"
-    DATABASE_PASSWORD = "4zknvpQqvICYcYNkknOET0WAEPNUF5h6"
+    DATABASE_URL = "postgres://u94bvurcphj34k:p88947d7eef18ddde09311863e892248be33064faa453b5a7792270e9ab27c7c5@c4jpa9p9eiug0j.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d5phr18iooe2k0"
     API_KEY = "5d3b1722-6b4f-41a1-a2b4-dcd3ab309ace"
     EMOJI_IN_HELP = os.environ.get("EMOJI_IN_HELP", "✯")
     G_DRIVE_CLIENT_ID = os.environ.get("G_DRIVE_CLIENT_ID", None)
